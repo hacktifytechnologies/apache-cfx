@@ -1,0 +1,7 @@
+services:
+  cxf:
+    image: hacktifytechnologies/hacktify-apache-cxf:latest
+    container_name: hacktify-apache-cxf
+    ports:
+      - "8080:8080"
+    
